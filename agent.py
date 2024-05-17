@@ -1,6 +1,6 @@
 # Import all the necessary libraries
 from dotenv import load_dotenv
-from langchain_community.chat_models import ChatOpenAI
+from langchain_openai import ChatOpenAI
 
 # ML_MODEL = "gpt-4o"
 ML_MODEL = "gpt-3.5-turbo"
